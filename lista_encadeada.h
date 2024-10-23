@@ -8,7 +8,7 @@ typedef struct lista
 Lista;
 
 Lista* criarLista();
-Lista* inserirLista(Lista*, int i);
+Lista* inserirLista(Lista* l, int i);
 Lista* exibirLista(Lista* l);
 void verificarVazia(Lista* l);
 Lista* buscarLista(Lista* l, int v);

@@ -12,10 +12,10 @@ int main()
     l = inserirLista(l, 40);
     exibirLista(l); // Exibe a lista
 
-    // Buscar um elemento
+    
     Lista* x = buscarLista(l, 10); // Buscando 10
     if (x != NULL) {
-        printf("\nO elemento buscado é: %d\n", x->info); // Deve imprimir 10
+        printf("\nO elemento buscado é: %d\n", x->info); 
     } else {
         printf("Elemento não encontrado.\n");
     }
@@ -37,8 +37,8 @@ int main()
     l = inserirListaCrescente(l, 7);
     exibirLista(l);
       
-    
-    liberaLista(l); // Libera a memória da lista ao final
+    // Libera a memória da lista ao final
+    liberaLista(l); 
     
    
     return 0;
